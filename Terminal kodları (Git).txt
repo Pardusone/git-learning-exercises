@@ -1,0 +1,95 @@
+pwd : nerede olduğunu gösterir 
+
+ls : listele demek bulunduğum yerdeki dosyaları listeler
+
+cd : klasöre girmek için yazılır
+
+git init çaıştırmadan önce git status ile kontrol et eğer çalışmıyorsa git init çalıştır yoksa dosya bozulabilir
+
+git add : Takip etmek istediğimiz dosyaları gite eklemek için kullanılır. Eğer tüm dosyaları eklemek istersek sonuna sadece boşluk ve . koyarız
+
+git commit : Dosyayı sisteme eklemiş oluyoruz. Checkpoint mantığı gibi
+
+cd .. : geri gelmek için
+
+clear : terminali temizler
+
+touch : yeni bir dosya oluşturur uzantıyı ve ismini vermelisin
+
+rm : dosyayı siler
+
+rm -rf : klasörü siler(rf zorla yap anlamındadır)
+
+mkdir : make directory klasör oluşturur
+
+git status : gitin anlık durumunu verir
+
+git config --global user.name : gitn ayarını değiştirmek için kullanılır
+
+ls -la : gizli klasörleri de gösterir
+
+git rm --cached : git add ile eklediğim dosyayı çıkarabilmeme yarar
+
+
+git commit -m " " :Commit ile ilgili blgi başlığı yani ne yaptığını yazarsın
+
+git log : dosya ile ilgili yapılan tüm güncellemeler burada gözükür git commit vs
+
+git id : git log ile bakıldığında görülür ve kimlik özelliği taşır
+
+git restore : bir önceki checkpointe dönersin
+
+git branch: hangi branchte olduğunu gösterir
+
+git branch (isim) : yeni branch açar ve ismini koyar 
+
+git switch (isim) : branchler arası geçiş yaparsın
+
+git merge (isim) : branchleri birbirine merge eder
+
+git checkout (commit id'si) : commitler arasında gezinebilirsin
+
+git revert (commit id'si): girilen id'ye döner ama sonraki commitler silinmez yeni bir commit açıp onlarsız devam eder
+
+git reset --hard (commit id'si) : girdiğin id'den sonraki tüm commitleri siler
+
+git stash : son committen itibaren yapılan değişikleri bir yerde depolar sen tekrar commitleyene kadar (bu sırada branch vs değişirebilirsin)
+
+git stash pop : committen sonraki stasha atılan kodları stashten çıkarır ve commit edilebilir hale getirir
+
+git tag : Githuba yükleme yaparken versiyonlama için etiket koymaya yarar
+
+git remote add origin (link) : bir uzaktan depo bağlantısı eklemek için kullanılır. Bu, projeni internet üzerindeki bir depo (mesela GitHub'daki bir repo) ile ilişkilendirir. Böylece projeni internet üzerindeki bu depoya gönderip alabilirsin. Örneğin, projeni paylaşmak ya da başkalarının projene katkıda bulunması için bu bağlantıyı kurarsın.
+
+git push origin (branch ismi) : commitleri githuba yükler
+
+git clone : Githubtaki bir kod dosyasını bilgisayara klonlar tüm commitler ile
+
+git fetch ile git pull arasındaki fark git pull fetch + merge demektir
+
+git fetch ve git merge ayrı ayrı: Eğer git pull kullanmak istemezseniz, önce git fetch komutuyla uzak depodaki değişiklikleri çekebilir ve ardından git merge komutuyla bu değişiklikleri birleştirebilirsiniz.
+
+git pull <remote> <branch> :git pull, Git komutlarından biridir ve uzak depodan (remote repository) yerel depoya (local repository) güncellemeleri getirmek ve yerel depodaki güncellemelerle birleştirmek için kullanılır. Bu komut iki işlemi bir arada yapar:
+
+git fetch (remote) : git fetch, Git'te uzak depodan (remote repository) yapılan değişiklikleri yerel depoya (local repository) indiren bir komuttur. Ancak, bu değişiklikleri yerel dalınıza otomatik olarak birleştirmez. Yani, git fetch yalnızca güncellemeleri indirir; bu değişiklikleri çalışma alanınıza uygulamak için başka bir işlem yapmanız gerekir
+
+.gitignore : içine yazdığın dosya isimlerini git hub ignore eder ve yüklemez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
